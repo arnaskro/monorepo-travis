@@ -9,6 +9,7 @@ branches:
 matrix:
     include:
         - env: TARGET=projects/projectA
+        - env: TARGET=projects/projectB
         - env: TARGET=features/featureA
         - env: TARGET=features/featureB
 
