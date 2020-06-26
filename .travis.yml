@@ -2,10 +2,7 @@ language: generic
 
 notifications:
     email: false
-
-branches:
-    only:
-        - master
+    
 matrix:
     include:
         - env: TARGET=projects/projectA
